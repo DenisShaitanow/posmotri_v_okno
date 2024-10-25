@@ -12,6 +12,7 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
+  display: flex;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -127,13 +128,13 @@ ol {
   text-decoration-skip-ink: none;
 }
 
+.search-form__label:has(:focus) {
+  outline: none;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
-}
-
-.search-form__label:has(:focus) {
-  outline: none;
 }
 
 .search-form__label:has(:active) {
@@ -144,7 +145,6 @@ ol {
 .search-form__textfield:active {
   border: none;
 }
-
 
 .search-form__checkbox-list {
   display: flex;
