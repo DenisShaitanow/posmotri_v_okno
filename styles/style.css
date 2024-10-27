@@ -201,8 +201,7 @@ input[type='checkbox']:active ~ .search-form__label-text {
   height: 298px;
   overflow: scroll;
   overflow-x: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #1b1919;
+  scrollbar-width: none;
   position: relative;
 }
 
